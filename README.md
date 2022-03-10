@@ -1,7 +1,8 @@
 #crudpost-client
 
-server: https://github.com/JyriKa/crudpost-server
+check sample-images folder
 
+server: https://github.com/JyriKa/crudpost-server
 
 # Getting Started with Create React App
 
