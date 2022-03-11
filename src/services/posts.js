@@ -10,7 +10,7 @@ const newPost = async (authToken, newPost) => {
 
 const likePost = async (authToken, id) => {
     axios.defaults.headers.common = {'Authorization': `Bearer ${authToken}`}
-    const response = await axios.put(`/authorized${baseUrl}/likepost/${id}`)
+    const response = await axios.put(`${baseUrl}/authorized/likepost/${id}`)
     return response.status
 }
 
